@@ -22,7 +22,7 @@ console.log(cansLeft < 5 ? "Time to restock!" : "We're stocked");
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-console.log(`'}`);
+console.log(heartRate < 100 ? "Boost needed!" : "Energy Levels are high!");
 // Output: Boost needed!
 
 
@@ -31,7 +31,7 @@ console.log(`'}`);
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
-console.log(``);
+console.log(currentTemp <= 5 ? "Chilled to perfection!" : "Needs cooler!");
 // Output: Chilled to perfection!
 
 
@@ -42,6 +42,7 @@ console.log(``);
 
 // Define the current hour in 24-hour format
 let currentHour = 22;
+console.log(currentHour >= 7 && currentHour <= 23 ? "Unleash the beast!" : "Better stick to water");
 // Output: Unleash the beast!
 
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
